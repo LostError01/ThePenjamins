@@ -7,6 +7,8 @@ TagManager:
   - MG01
   - MG02
   - MG03
+  - Destroyer
+  - R_Enemy
   layers:
   - Default
   - TransparentFX

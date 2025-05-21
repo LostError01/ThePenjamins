@@ -3,7 +3,7 @@ using UnityEngine;
 public class Parallax : MonoBehaviour
 {
     [Header("Variables")]
-    private float velocidadParallax = 8f;
+    [SerializeField] private float velocidadParallax = 8f;
 
     void Update()
     {

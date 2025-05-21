@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Runner_Player : MonoBehaviour
 {
@@ -44,5 +45,13 @@ public class Runner_Player : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(groundCheck.position, radio);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("R_Enemy"))
+        {
+            SceneManager.LoadScene("MG02");
+        }
     }
 }
