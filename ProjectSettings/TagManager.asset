@@ -3,12 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - MG02
+  - MG03
+  - MG01
+  - R_Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - GroundRunner
   - Water
   - UI
   - 
