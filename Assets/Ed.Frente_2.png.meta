@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 78bea16b302074040b2c5a220a050565
+guid: 88016b5cd029e8c4bb2aafb999c2aef7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -339030560174890677
-    second: Banqueta_0
+      213: 6350280882196750607
+    second: Ed.Frente_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Banqueta_0
+      name: Ed.Frente_2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 210
-        width: 1920
-        height: 101
+        y: 204
+        width: 1280
+        height: 392
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4126c470858b4bf0800000000000000
-      internalID: -339030560174890677
+      spriteID: f01aa4f21dab02850800000000000000
+      internalID: 6350280882196750607
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Banqueta_0: -339030560174890677
+      Ed.Frente_0: -8437113085779222801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

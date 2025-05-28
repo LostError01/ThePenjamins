@@ -3,18 +3,18 @@ using UnityEngine;
 public class GroundRepeat : MonoBehaviour
 {
     [Header("Variables")]
-    public float speed = 5f;          // Velocidad de movimiento
+    public float speed = 8f;          // Velocidad de movimiento
     private float spriteWidth;
 
     [Header("Script del otro suelo")]
     public GroundRepeat otherGround; // Referencia al otro suelo
-    private SpriteRenderer spriteRenderer;
+    private BoxCollider2D boxCollider2D;
 
     void Start()
     {
         // Inicializar componentes y calcular el ancho del sprite
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteWidth = spriteRenderer.bounds.size.x;
+        boxCollider2D = GetComponent<BoxCollider2D>();
+        spriteWidth = boxCollider2D.size.x;
     }
 
     void Update()
@@ -30,7 +30,7 @@ public class GroundRepeat : MonoBehaviour
         float groundRightEdge = transform.position.x + (spriteWidth / 2);
 
         // Verificar si el sprite ha salido de la pantalla
-        if (groundRightEdge < cameraLeftEdge)
+        if (groundRightEdge <= cameraLeftEdge)
         {
             // Calcular nueva posición al final del otro suelo
             float newX = otherGround.transform.position.x +
