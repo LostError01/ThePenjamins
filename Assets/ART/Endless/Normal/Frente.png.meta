@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0c2a52194680a4f43b387cd3a25ac0f3
+guid: b551d5d694583a247808c1f367aab954
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8437113085779222801
-    second: Ed.Frente_0
+      213: -8822703049168019118
+    second: Frente_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ed.Frente_0
+      name: Frente_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 204
-        width: 1280
-        height: 392
+        y: 305
+        width: 1920
+        height: 586
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fee5458a95a59ea80800000000000000
-      internalID: -8437113085779222801
+      spriteID: 251a59b42567f8580800000000000000
+      internalID: -8822703049168019118
       vertices: []
       indices: 
       edges: []

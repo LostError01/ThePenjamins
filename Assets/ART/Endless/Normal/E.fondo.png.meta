@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 78bea16b302074040b2c5a220a050565
+guid: 225b3fee78666934b9905eeaa72cbd08
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -339030560174890677
-    second: Banqueta_0
+      213: 430037706781518110
+    second: E.fondo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Banqueta_0
+      name: E.fondo_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 210
+        y: 646
         width: 1920
-        height: 101
+        height: 425
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4126c470858b4bf0800000000000000
-      internalID: -339030560174890677
+      spriteID: e196cb0140dc7f500800000000000000
+      internalID: 430037706781518110
       vertices: []
       indices: 
       edges: []

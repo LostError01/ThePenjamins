@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 8ed79f1572a47e949ad71a4d7bbbcfa5
+guid: 88016b5cd029e8c4bb2aafb999c2aef7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5642844357850739608
-    second: Linterna_0
-  - first:
-      213: 3582402877522861490
-    second: Linterna_1
+      213: 6350280882196750607
+    second: Ed.Frente_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Linterna_0
+      name: Ed.Frente_2_0
       rect:
         serializedVersion: 2
-        x: 595
-        y: 438
-        width: 137
-        height: 276
+        x: 0
+        y: 204
+        width: 1280
+        height: 392
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 893b280eb096f4e40800000000000000
-      internalID: 5642844357850739608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Linterna_1
-      rect:
-        serializedVersion: 2
-        x: 916
-        y: 0
-        width: 364
-        height: 623
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bd561dcf6047b130800000000000000
-      internalID: 3582402877522861490
+      spriteID: f01aa4f21dab02850800000000000000
+      internalID: 6350280882196750607
       vertices: []
       indices: 
       edges: []
