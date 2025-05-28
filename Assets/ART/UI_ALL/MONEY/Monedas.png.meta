@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 8ed79f1572a47e949ad71a4d7bbbcfa5
+guid: 163626b41e3872445891d35a1a365a34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5642844357850739608
-    second: Linterna_0
-  - first:
-      213: 3582402877522861490
-    second: Linterna_1
+      213: -2625022825004175944
+    second: Monedas_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Linterna_0
+      name: Monedas_0
       rect:
         serializedVersion: 2
-        x: 595
-        y: 438
-        width: 137
-        height: 276
+        x: 72
+        y: 72
+        width: 208
+        height: 207
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 893b280eb096f4e40800000000000000
-      internalID: 5642844357850739608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Linterna_1
-      rect:
-        serializedVersion: 2
-        x: 916
-        y: 0
-        width: 364
-        height: 623
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bd561dcf6047b130800000000000000
-      internalID: 3582402877522861490
+      spriteID: 8bd655c06ab029bd0800000000000000
+      internalID: -2625022825004175944
       vertices: []
       indices: 
       edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Linterna_0: 5642844357850739608
-      Linterna_1: 3582402877522861490
+      Monedas_0: -2625022825004175944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

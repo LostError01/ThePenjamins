@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 8ed79f1572a47e949ad71a4d7bbbcfa5
+guid: c299d56ad5e38144b860984950f4d25f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5642844357850739608
-    second: Linterna_0
+      213: -2100060773079271813
+    second: Cerrar_0
   - first:
-      213: 3582402877522861490
-    second: Linterna_1
+      213: 8149236833256294453
+    second: Cerrar_1
+  - first:
+      213: -1796350464461176836
+    second: Cerrar_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,45 +119,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Linterna_0
+      name: Cerrar_0
       rect:
         serializedVersion: 2
-        x: 595
-        y: 438
-        width: 137
-        height: 276
+        x: 496
+        y: 338
+        width: 777
+        height: 355
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 893b280eb096f4e40800000000000000
-      internalID: 5642844357850739608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Linterna_1
-      rect:
-        serializedVersion: 2
-        x: 916
-        y: 0
-        width: 364
-        height: 623
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bd561dcf6047b130800000000000000
-      internalID: 3582402877522861490
+      spriteID: b76b0ed7ad51bd2e0800000000000000
+      internalID: -2100060773079271813
       vertices: []
       indices: 
       edges: []
@@ -163,7 +144,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2986697ad8caf0442bda43d6cc61a685
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +154,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Linterna_0: 5642844357850739608
-      Linterna_1: 3582402877522861490
+      Cerrar_0: -2100060773079271813
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
