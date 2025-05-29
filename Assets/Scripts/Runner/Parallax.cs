@@ -1,44 +1,57 @@
+using System.ComponentModel;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-    [Header("Variables")]
-    public float speed = 5f;          // Velocidad de movimiento
-    private float spriteWidth;
+    [Header("Objeto 1")]
+    // Referencias públicas a los dos sprites del suelo
+    [SerializeField] private SpriteRenderer obj1;
+    [Header("Objeto 2")]
+    [SerializeField] private SpriteRenderer obj2;
 
-    [Header("Script del otro suelo")]
-    public Parallax otherObject; // Referencia al otro objeto
-    private SpriteRenderer spriteRenderer;
+    [Header("Velocidad")]
+    // Velocidad de desplazamiento
+    [SerializeField] private float speed;
+
+    private float spriteWidth; // Ancho de cada sprite de suelo
 
     void Start()
     {
-        // Inicializar componentes y calcular el ancho del sprite
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteWidth = spriteRenderer.bounds.size.x;
+        // Calcular el ancho del sprite (asumiendo que ambos son iguales)
+        spriteWidth = obj1.sprite.bounds.size.x;
+
+        // Posicionar inicialmente los suelos uno detrás del otro
+        if (obj1 && obj2)
+        {
+            // Posición inicial del segundo suelo
+            obj2.transform.position = new Vector2(
+                obj1.transform.position.x + spriteWidth,
+                obj2.transform.position.y);
+        }
     }
 
     void Update()
     {
-        // Mover el suelo hacia la izquierda
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
+        // Mover ambos suelos hacia la izquierda
+        MoveGround(obj1);
+        MoveGround(obj2);
+    }
 
-        // Calcular los límites de la cámara
-        float cameraLeftEdge = Camera.main.transform.position.x -
-                              (Camera.main.orthographicSize * Camera.main.aspect);
+    void MoveGround(SpriteRenderer ground)
+    {
+        // Actualizar posición
+        ground.transform.Translate(Vector2.left * speed * Time.deltaTime);
 
-        // Posición del borde derecho del sprite actual
-        float groundRightEdge = transform.position.x + (spriteWidth / 2);
-
-        // Verificar si el sprite ha salido de la pantalla
-        if (groundRightEdge < cameraLeftEdge)
+        // Verificar si el suelo ha salido completamente de la pantalla
+        if (ground.transform.position.x + spriteWidth / 2 < Camera.main.transform.position.x
+            - Camera.main.orthographicSize * Camera.main.aspect)
         {
-            // Calcular nueva posición al final del otro suelo
-            float newX = otherObject.transform.position.x +
-                        (otherObject.spriteWidth / 2) +
-                        (spriteWidth / 2);
-
-            // Reposicionar el sprite
-            transform.position = new Vector2(newX, transform.position.y);
+            // Reposicionar al frente del otro suelo
+            ground.transform.position = new Vector2(
+                ground.transform.position.x + 2 * spriteWidth,
+                ground.transform.position.y
+            );
         }
     }
 }

@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 435bb7aa74a307a4b91adcbcecbc090a
+guid: bd513b21724fbee47874bc642ceeeb34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9133910998531526563
-    second: Luz_0
+      213: -1095413794899576530
+    second: Luz_2_0
   - first:
-      213: 7735548722629990460
-    second: Luz_1
+      213: -7860978942952449211
+    second: Luz_2_1
+  - first:
+      213: 9176273340482891266
+    second: Luz_2_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Luz_1
+      name: Luz_2_1
       rect:
         serializedVersion: 2
-        x: 1333
+        x: 1299
         y: 0
-        width: 358
-        height: 946
+        width: 396
+        height: 942
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,8 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c38561b14903a5b60800000000000000
-      internalID: 7735548722629990460
+      spriteID: 54b5e76fc4138e290800000000000000
+      internalID: -7860978942952449211
       vertices: []
       indices: 
       edges: []
@@ -128,7 +131,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 83c48f699b9fb88448d245a7d66f2c4e
+    spriteID: c16eb61e952f5d244a81829002196c09
     internalID: 0
     vertices: []
     indices: 
@@ -138,8 +141,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Luz_0: -9133910998531526563
-      Luz_1: 7735548722629990460
+      Luz_2_0: -1095413794899576530
+      Luz_2_1: -7860978942952449211
+      Luz_2_2: 9176273340482891266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -13,9 +13,14 @@ public class Runner_EnemySpawn : MonoBehaviour
     [SerializeField] private float AlturaEnemigo01;
     [SerializeField] private float AlturaEnemigo02;
 
+    [Header("Velocidad Enemigo")]
+    [SerializeField] private float velocidadEnemigo;
+    public static float velocidadEnemigo01;
+
     private void Start()
     {
         StartCoroutine(Spawn()); // Inicia la corrutina de spawn
+        velocidadEnemigo01 = velocidadEnemigo;
     }
 
     private IEnumerator Spawn()
@@ -28,7 +33,7 @@ public class Runner_EnemySpawn : MonoBehaviour
 
             if (RandomIndex == 0)
             {
-                EnemyTransform = new Vector3(transform.position.x, transform.position.y + AlturaEnemigo01); ;
+                EnemyTransform = new Vector3(transform.position.x, transform.position.y + AlturaEnemigo01);
             }
             if (RandomIndex == 1)
             {

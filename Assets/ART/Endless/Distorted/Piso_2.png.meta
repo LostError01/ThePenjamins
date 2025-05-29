@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 435bb7aa74a307a4b91adcbcecbc090a
+guid: 5350c62efbdad5d4996c5195e56badb5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9133910998531526563
-    second: Luz_0
-  - first:
-      213: 7735548722629990460
-    second: Luz_1
+      213: -3321630963579410415
+    second: Piso_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 130
+  spritePixelsToUnits: 108
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Luz_1
+      name: Piso_2_0
       rect:
         serializedVersion: 2
-        x: 1333
+        x: 0
         y: 0
-        width: 358
-        height: 946
+        width: 1920
+        height: 248
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c38561b14903a5b60800000000000000
-      internalID: 7735548722629990460
+      spriteID: 11829e4cc3237e1d0800000000000000
+      internalID: -3321630963579410415
       vertices: []
       indices: 
       edges: []
@@ -128,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 83c48f699b9fb88448d245a7d66f2c4e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -138,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Luz_0: -9133910998531526563
-      Luz_1: 7735548722629990460
+      Piso_2_0: -3321630963579410415
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
