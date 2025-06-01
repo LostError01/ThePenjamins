@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tiendita2Completa_0: -5590180047192728015
+      Tiendita2Completa_1: -3849246767479692678
+      Tiendita2Completa_2: 3459797742546342378
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
