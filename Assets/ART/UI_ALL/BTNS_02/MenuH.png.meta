@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 04eaf0f9332824d4a9ac529c45bd1c9f
+guid: 3baa45251ba21e44aa20ab8f83403fa1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8697353269654471733
-    second: Ojo 1_0
+      213: 3847936802956885962
+    second: MenuH_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ojo 1_0
+      name: MenuH_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 16
-        width: 818
-        height: 538
+        x: 498
+        y: 380
+        width: 670
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53446dbd7b433b870800000000000000
-      internalID: 8697353269654471733
+      spriteID: acfb562922e966530800000000000000
+      internalID: 3847936802956885962
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Ojo 1_0: 8697353269654471733
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
