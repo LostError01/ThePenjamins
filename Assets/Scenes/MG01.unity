@@ -301,7 +301,7 @@ MonoBehaviour:
   fuerzaSalto: 450
   mascaraSuelo:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
   posicionSuelo: {fileID: 1286158748}
   dimensionesCaja: {x: 1.2, y: 0.25, z: 0}
   enSuelo: 0
@@ -315,7 +315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87473755}
   - component: {fileID: 87473756}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -393,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 96100576}
   - component: {fileID: 96100577}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -471,7 +471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 102613722}
   - component: {fileID: 102613723}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -503,7 +503,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -580,7 +580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 136417855}
   - component: {fileID: 136417856}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,7 +658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 137492915}
   - component: {fileID: 137492916}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -736,7 +736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 165713843}
   - component: {fileID: 165713844}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,9 +852,9 @@ GameObject:
   m_Component:
   - component: {fileID: 265024108}
   - component: {fileID: 265024109}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (53)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -884,7 +884,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -930,9 +930,9 @@ GameObject:
   m_Component:
   - component: {fileID: 267675975}
   - component: {fileID: 267675976}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (28)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -962,7 +962,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1008,7 +1008,7 @@ GameObject:
   m_Component:
   - component: {fileID: 272709599}
   - component: {fileID: 272709600}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,7 +1040,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1152,7 +1152,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 1780775107385024336, guid: 44b4a85d19820f74aaec2fd8eef9265e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1196,9 +1196,9 @@ GameObject:
   m_Component:
   - component: {fileID: 307624145}
   - component: {fileID: 307624146}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (59)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1228,7 +1228,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1274,7 +1274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 312848729}
   - component: {fileID: 312848730}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1362,7 +1362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 323904708}
   - component: {fileID: 323904709}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1440,7 +1440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 325047244}
   - component: {fileID: 325047245}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: COLLIDER_ (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1521,7 +1521,7 @@ GameObject:
   - component: {fileID: 330467134}
   m_Layer: 0
   m_Name: "Da\xF1o 1_0"
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1652,9 +1652,9 @@ GameObject:
   m_Component:
   - component: {fileID: 352422655}
   - component: {fileID: 352422656}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (31)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1684,7 +1684,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1730,7 +1730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 355219704}
   - component: {fileID: 355219705}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1808,7 +1808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 389575665}
   - component: {fileID: 389575666}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1840,7 +1840,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1886,7 +1886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 429153049}
   - component: {fileID: 429153050}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1964,7 +1964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 432745068}
   - component: {fileID: 432745069}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2042,9 +2042,9 @@ GameObject:
   m_Component:
   - component: {fileID: 449129553}
   - component: {fileID: 449129554}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (29)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2074,7 +2074,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2120,7 +2120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 455707887}
   - component: {fileID: 455707888}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: COLLIDER_ (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2203,7 +2203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 489450234}
   - component: {fileID: 489450235}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2281,7 +2281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 490998483}
   - component: {fileID: 490998484}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2313,7 +2313,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2359,7 +2359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 503840041}
   - component: {fileID: 503840042}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2391,7 +2391,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2437,9 +2437,9 @@ GameObject:
   m_Component:
   - component: {fileID: 507113364}
   - component: {fileID: 507113365}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (12)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2469,7 +2469,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2603,9 +2603,9 @@ GameObject:
   m_Component:
   - component: {fileID: 514107629}
   - component: {fileID: 514107630}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (50)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2635,7 +2635,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2681,7 +2681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 525435511}
   - component: {fileID: 525435512}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2713,7 +2713,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2759,7 +2759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526744793}
   - component: {fileID: 526744794}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2837,7 +2837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 568517676}
   - component: {fileID: 568517677}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3062,9 +3062,9 @@ GameObject:
   m_Component:
   - component: {fileID: 632199448}
   - component: {fileID: 632199449}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (32)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3094,7 +3094,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3213,8 +3213,8 @@ Transform:
   - {fileID: 265024108}
   - {fileID: 1006357126}
   - {fileID: 981399214}
-  - {fileID: 1035066357}
   - {fileID: 2056551859}
+  - {fileID: 1035066357}
   - {fileID: 307624145}
   - {fileID: 1708323409}
   - {fileID: 1882163416}
@@ -3292,7 +3292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 663984889}
   - component: {fileID: 663984890}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3506,7 +3506,7 @@ GameObject:
   - component: {fileID: 726598889}
   m_Layer: 0
   m_Name: COLLIDER_5.2
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3582,7 +3582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 746978553}
   - component: {fileID: 746978554}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3660,9 +3660,9 @@ GameObject:
   m_Component:
   - component: {fileID: 806028349}
   - component: {fileID: 806028350}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (39)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3692,7 +3692,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3738,7 +3738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 831893433}
   - component: {fileID: 831893434}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3816,7 +3816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 864038107}
   - component: {fileID: 864038108}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3894,9 +3894,9 @@ GameObject:
   m_Component:
   - component: {fileID: 876245036}
   - component: {fileID: 876245037}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (26)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3926,7 +3926,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4203,7 +4203,7 @@ GameObject:
   - component: {fileID: 950452909}
   m_Layer: 0
   m_Name: "Da\xF1o 6_0"
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4278,8 +4278,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &950452909
-BoxCollider2D:
+--- !u!60 &950452909
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4312,7 +4312,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.030469894, y: -0.2761953}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4322,8 +4322,173 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.893448, y: 1.9776092}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.3, y: -1.245}
+      - {x: -1.27, y: -1.235}
+      - {x: -1.27, y: -1.2049999}
+      - {x: -1.3, y: -1.1949999}
+      - {x: -1.3199999, y: -1.2149999}
+    - - {x: 0.48, y: -0.42499998}
+      - {x: 0.39, y: -0.345}
+      - {x: 0.17999999, y: 0.015}
+      - {x: 0.04, y: 0.195}
+      - {x: 0.03, y: 0.545}
+      - {x: 0.01, y: 0.555}
+      - {x: -0.049999997, y: 0.555}
+      - {x: -0.089999996, y: 0.175}
+      - {x: -0.19, y: -0.015}
+      - {x: -0.17999999, y: -0.205}
+      - {x: -0.17999999, y: -0.355}
+      - {x: -0.14999999, y: -0.39499998}
+      - {x: -0.13, y: -0.39499998}
+      - {x: -0.37, y: -0.385}
+      - {x: -0.39999998, y: -0.39499998}
+      - {x: -0.45, y: -0.415}
+      - {x: -0.45, y: -0.625}
+      - {x: -0.38, y: -0.685}
+      - {x: -0.35999998, y: -1.105}
+      - {x: -0.35, y: -1.125}
+      - {x: 0.39999998, y: -1.125}
+      - {x: 0.42999998, y: -0.73499995}
+      - {x: 0.48999998, y: -0.575}
+      - {x: 0.48999998, y: -0.45499998}
+    - - {x: 1.48, y: -0.415}
+      - {x: 1.51, y: -0.375}
+      - {x: 1.52, y: -0.315}
+      - {x: 1.52, y: -0.205}
+      - {x: 1.4599999, y: -0.105}
+      - {x: 1.17, y: 0.015}
+      - {x: 1.15, y: 0.24499999}
+      - {x: 1.09, y: 0.285}
+      - {x: 1.01, y: 0.385}
+      - {x: 0.95, y: 0.415}
+      - {x: 0.91999996, y: 0.695}
+      - {x: 0.9, y: 0.84499997}
+      - {x: 0.88, y: 0.885}
+      - {x: 0.82, y: 0.885}
+      - {x: 0.78999996, y: 0.875}
+      - {x: 0.84, y: 0.415}
+      - {x: 0.81, y: 0.255}
+      - {x: 0.74, y: 0.155}
+      - {x: 0.72999996, y: -0.024999999}
+      - {x: 0.75, y: -0.185}
+      - {x: 0.48999998, y: -0.325}
+      - {x: 0.48999998, y: -0.545}
+      - {x: 0.52, y: -0.59499997}
+      - {x: 0.57, y: -0.625}
+      - {x: 0.58, y: -1.0849999}
+      - {x: 0.59, y: -1.095}
+      - {x: 0.71, y: -1.095}
+      - {x: 1.15, y: -0.965}
+      - {x: 1.4, y: -0.84499997}
+      - {x: 1.4, y: -0.465}
+    - - {x: -0.45999998, y: -0.59499997}
+      - {x: -0.45999998, y: -0.435}
+      - {x: -0.48, y: -0.36499998}
+      - {x: -0.62, y: -0.275}
+      - {x: -0.71999997, y: -0.205}
+      - {x: -0.75, y: -0.125}
+      - {x: -0.75, y: 0.125}
+      - {x: -0.88, y: 0.315}
+      - {x: -0.9, y: 0.765}
+      - {x: -0.91999996, y: 0.78499997}
+      - {x: -0.96999997, y: 0.78499997}
+      - {x: -1.01, y: 0.555}
+      - {x: -1.03, y: 0.345}
+      - {x: -1.17, y: 0.185}
+      - {x: -1.16, y: 0.015}
+      - {x: -1.1, y: -0.024999999}
+      - {x: -1.17, y: -0.085}
+      - {x: -1.1899999, y: -0.125}
+      - {x: -1.37, y: -0.13499999}
+      - {x: -1.4399999, y: -0.155}
+      - {x: -1.49, y: -0.205}
+      - {x: -1.49, y: -0.39499998}
+      - {x: -1.4, y: -0.49499997}
+      - {x: -1.39, y: -0.835}
+      - {x: -1.3299999, y: -0.91499996}
+      - {x: -1.03, y: -1.005}
+      - {x: -0.71999997, y: -1.0749999}
+      - {x: -0.59, y: -1.0849999}
+      - {x: -0.55, y: -1.0849999}
+      - {x: -0.53, y: -1.0749999}
+      - {x: -0.53999996, y: -0.765}
+      - {x: -0.5, y: -0.645}
+    - - {x: 2.6399999, y: 0.095}
+      - {x: 2.57, y: 0.125}
+      - {x: 2.5954382, y: 0.33807468}
+      - {x: 2.6454382, y: 0.5443764}
+      - {x: 2.7901654, y: 0.7510722}
+      - {x: 2.8352437, y: 0.99071944}
+      - {x: 2.4503179, y: 0.6583926}
+      - {x: 2.2, y: 0.505}
+      - {x: 2.06, y: 0.575}
+      - {x: 1.9699999, y: 0.705}
+      - {x: 1.89, y: 0.84499997}
+      - {x: 1.77, y: 1.225}
+      - {x: 1.74, y: 1.255}
+      - {x: 1.6899999, y: 1.225}
+      - {x: 1.7199999, y: 1.0749999}
+      - {x: 1.8399999, y: 0.685}
+      - {x: 1.81, y: 0.66499996}
+      - {x: 1.8199999, y: 0.585}
+      - {x: 1.8, y: 0.465}
+      - {x: 1.76, y: 0.42499998}
+      - {x: 1.81, y: 0.235}
+      - {x: 1.89, y: 0.175}
+      - {x: 1.8, y: 0.074999996}
+      - {x: 1.6899999, y: 0.055}
+      - {x: 1.52, y: -0.114999995}
+      - {x: 1.52, y: -0.295}
+      - {x: 1.54, y: -0.36499998}
+      - {x: 1.61, y: -0.415}
+      - {x: 1.61, y: -0.705}
+      - {x: 1.62, y: -0.72499996}
+      - {x: 1.65, y: -0.72499996}
+      - {x: 1.73, y: -0.695}
+      - {x: 2.23, y: -0.33499998}
+      - {x: 2.53, y: -0.065}
+      - {x: 2.6399999, y: 0.074999996}
+    - - {x: -1.49, y: -0.39499998}
+      - {x: -1.49, y: -0.205}
+      - {x: -1.53, y: -0.155}
+      - {x: -1.5999999, y: -0.095}
+      - {x: -1.75, y: -0.035}
+      - {x: -1.8199999, y: -0.015}
+      - {x: -1.8199999, y: 0.065}
+      - {x: -1.8499999, y: 0.095}
+      - {x: -1.8, y: 0.16499999}
+      - {x: -1.78, y: 0.325}
+      - {x: -1.86, y: 0.405}
+      - {x: -1.86, y: 0.545}
+      - {x: -1.8199999, y: 0.625}
+      - {x: -1.78, y: 0.875}
+      - {x: -1.81, y: 0.885}
+      - {x: -1.87, y: 0.885}
+      - {x: -2.0039372, y: 0.83334744}
+      - {x: -2.0231528, y: 0.8200442}
+      - {x: -2.1295297, y: 0.7496501}
+      - {x: -2.418196, y: 0.6696501}
+      - {x: -2.6001656, y: 0.639256}
+      - {x: -2.8920262, y: 0.73972785}
+      - {x: -2.845028, y: 0.5799465}
+      - {x: -2.7529213, y: 0.36452973}
+      - {x: -2.6422102, y: 0.1170457}
+      - {x: -2.37, y: 0.125}
+      - {x: -2.53, y: 0.145}
+      - {x: -2.6299999, y: 0.095}
+      - {x: -2.6299999, y: 0.055}
+      - {x: -2.49, y: -0.085}
+      - {x: -2.25, y: -0.295}
+      - {x: -2.04, y: -0.465}
+      - {x: -1.67, y: -0.685}
+      - {x: -1.5999999, y: -0.715}
+      - {x: -1.5699999, y: -0.705}
+      - {x: -1.5699999, y: -0.625}
+      - {x: -1.5799999, y: -0.545}
+      - {x: -1.53, y: -0.45499998}
+  m_UseDelaunayMesh: 0
 --- !u!1 &950765609
 GameObject:
   m_ObjectHideFlags: 0
@@ -4334,7 +4499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 950765610}
   - component: {fileID: 950765611}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4569,7 +4734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 978988251}
   - component: {fileID: 978988252}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4647,7 +4812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 981399214}
   - component: {fileID: 981399215}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4679,7 +4844,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4787,7 +4952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1006357126}
   - component: {fileID: 1006357127}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4819,7 +4984,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4865,7 +5030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1035066357}
   - component: {fileID: 1035066358}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4897,7 +5062,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4943,7 +5108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1070419438}
   - component: {fileID: 1070419439}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5037,7 +5202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1183113311}
   - component: {fileID: 1183113312}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5213,7 +5378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1228424752}
   - component: {fileID: 1228424753}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5324,9 +5489,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1242134822}
   - component: {fileID: 1242134823}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (10)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5356,7 +5521,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -5402,7 +5567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1242870367}
   - component: {fileID: 1242870368}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5592,7 +5757,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -2598916957020980261, guid: 9dfb593dd0fe13842a1c7324fca24b31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5614,9 +5779,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1271409690}
   - component: {fileID: 1271409691}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (51)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5646,7 +5811,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -5806,7 +5971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1303366270}
   - component: {fileID: 1303366271}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5875,7 +6040,9 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -3.506009, y: 1.9064081}
-      - {x: -4.1393485, y: 2.5824738}
+      - {x: -4.0451436, y: 2.5002038}
+      - {x: -4.0729675, y: 2.7088652}
+      - {x: -4.1977777, y: 2.1724184}
       - {x: -3.304435, y: 1.542902}
       - {x: -1.3225296, y: 1.0913471}
       - {x: -0.012687355, y: 1.2502943}
@@ -5954,7 +6121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364395111}
   - component: {fileID: 1364395112}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6106,7 +6273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1389607419}
   - component: {fileID: 1389607420}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6138,7 +6305,7 @@ PolygonCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -6207,9 +6374,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1487929148}
   - component: {fileID: 1487929149}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (14)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6239,7 +6406,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -6381,7 +6548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1616499744}
   - component: {fileID: 1616499745}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6459,7 +6626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1643470579}
   - component: {fileID: 1643470580}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6658,7 +6825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1708323409}
   - component: {fileID: 1708323410}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6690,7 +6857,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -6736,7 +6903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719548024}
   - component: {fileID: 1719548025}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6768,7 +6935,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -6883,7 +7050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1771492647}
   - component: {fileID: 1771492648}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: COLLIDER_ (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7132,9 +7299,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1882163416}
   - component: {fileID: 1882163417}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (45)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7164,7 +7331,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -7210,9 +7377,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1894235666}
   - component: {fileID: 1894235667}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (37)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7242,7 +7409,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -7375,7 +7542,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -2598916957020980261, guid: 9dfb593dd0fe13842a1c7324fca24b31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7458,9 +7625,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1992647811}
   - component: {fileID: 1992647812}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (22)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7490,7 +7657,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -7672,7 +7839,7 @@ GameObject:
   - component: {fileID: 2046508165}
   m_Layer: 0
   m_Name: COLLIDER_ (7)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7726,7 +7893,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 3.909432}
+  m_Offset: {x: 0.030422628, y: 3.909432}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7736,7 +7903,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 10.320861}
+  m_Size: {x: 1.0608453, y: 10.320861}
   m_EdgeRadius: 0
 --- !u!1 &2056551858
 GameObject:
@@ -7748,9 +7915,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2056551859}
   - component: {fileID: 2056551860}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (57)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7780,7 +7947,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -7913,9 +8080,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2060202403}
   - component: {fileID: 2060202404}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (44)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7945,7 +8112,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -8024,9 +8191,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2078779039}
   - component: {fileID: 2078779040}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: COLLIDER_ (30)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8056,7 +8223,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c008e78c8efe33048a400e903648e883, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -8104,7 +8271,7 @@ GameObject:
   - component: {fileID: 2120487672}
   m_Layer: 0
   m_Name: COLLIDER_5.2 (1)
-  m_TagString: Untagged
+  m_TagString: WallNoJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8292,7 +8459,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -2598916957020980261, guid: 9dfb593dd0fe13842a1c7324fca24b31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

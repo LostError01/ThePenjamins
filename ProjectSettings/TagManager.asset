@@ -8,6 +8,10 @@ TagManager:
   - MG03
   - MG01
   - R_Enemy
+  - WallNoJump
+  - Damage
+  - Ishi_Dialog
+  - Ambar_Dialog
   layers:
   - Default
   - TransparentFX
@@ -15,7 +19,7 @@ TagManager:
   - GroundRunner
   - Water
   - UI
-  - 
+  - GroundPlatformer
   - 
   - 
   - 

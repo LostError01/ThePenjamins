@@ -1,18 +1,28 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class RPG_Player : MonoBehaviour
 {
+    [Header("Velocidad de movimiento")]
     //Variables para el movimiento
-    public float moveSpeed = 5f;
+    [SerializeField] private float moveSpeed;
 
     //Variables del objeto
-    Rigidbody2D PlayerRb;
-    Animator PlayerAnim;
+    private Rigidbody2D PlayerRb;
+    private Animator PlayerAnim;
 
-    //Objetos externos
+    [Header("Elementos de UI")]
     public Text MgText01;
+
+    [Header("Ishi")]
+    [SerializeField] private RawImage IshiDialog;
+    [SerializeField] private SpriteRenderer IshiImg;
+
+    [Header("Ambar")]
+    [SerializeField] private RawImage AmbarDialog;
+    [SerializeField] private SpriteRenderer AmbarImg;
 
     //Flags de minijuegos
     private bool MG01 = false, MG02 = false, MG03 = false;
@@ -102,6 +112,17 @@ public class RPG_Player : MonoBehaviour
             MgText01.enabled = true;
             MG03 = true;
         }
+
+        if(collision.CompareTag("Ishi_Dialog"))
+        {
+            IshiDialog.enabled = true;
+            IshiImg.enabled = true;
+        }
+        if (collision.CompareTag("Ambar_Dialog"))
+        {
+            AmbarDialog.enabled = true;
+            AmbarImg.enabled = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -122,6 +143,17 @@ public class RPG_Player : MonoBehaviour
         {
             MgText01.enabled = false;
             MG03 = false;
+        }
+
+        if (collision.CompareTag("Ishi_Dialog"))
+        {
+            IshiDialog.enabled = false;
+            IshiImg.enabled = false;
+        }
+        if (collision.CompareTag("Ambar_Dialog"))
+        {
+            AmbarDialog.enabled = false;
+            AmbarImg.enabled = false;
         }
     }
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Plataformer_Player : MonoBehaviour
 {
@@ -82,5 +83,18 @@ public class Plataformer_Player : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(posicionSuelo.position, dimensionesCaja);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("WallNoJump"))
+        {
+            salto = false; // Evita que el jugador salte al tocar el muro
+        }
+        if (collision.CompareTag("Damage"))
+        {
+            salto = false; // Evita que el jugador salte al tocar el daño
+            SceneManager.LoadScene("MG01");
+        }
     }
 }
