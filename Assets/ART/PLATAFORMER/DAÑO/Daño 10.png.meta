@@ -130,10 +130,10 @@ TextureImporter:
         serializedVersion: 2
         x: 47
         y: 29
-        width: 92
+        width: 463
         height: 191
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -146,99 +146,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: "Da\xF1o 10_1"
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 29
-        width: 92
-        height: 191
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7bf9b04f3aa71c4c0800000000000000
-      internalID: -4268996127177859145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Da\xF1o 10_2"
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 28
-        width: 92
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0b75dc60823ce4b0800000000000000
-      internalID: -5409893525215675635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Da\xF1o 10_3"
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 25
-        width: 92
-        height: 195
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c6935e3a67e577c0800000000000000
-      internalID: -4074095844388530491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Da\xF1o 10_4"
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 26
-        width: 92
-        height: 194
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 574e235b43d132a90800000000000000
-      internalID: -7339990855468260235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 370662d2cb315dc48bc4023378b321bd
     internalID: 0
     vertices: []
     indices: 
