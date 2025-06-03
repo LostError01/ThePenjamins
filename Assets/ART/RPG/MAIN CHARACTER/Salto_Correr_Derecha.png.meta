@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: d1bdf2ee115a1e542b28942edc780b0a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7605369439574757818
+    second: Salto_Correr_Derecha_0
+  - first:
+      213: 2386300430816106897
+    second: Salto_Correr_Derecha_1
+  - first:
+      213: 4140589892408408068
+    second: Salto_Correr_Derecha_2
+  - first:
+      213: 1280041409947265986
+    second: Salto_Correr_Derecha_3
+  - first:
+      213: -5649371548318974318
+    second: Salto_Correr_Derecha_4
+  - first:
+      213: 1004254735411264856
+    second: Salto_Correr_Derecha_5
+  - first:
+      213: 2563355977222031278
+    second: Salto_Correr_Derecha_6
+  - first:
+      213: -287455740928521957
+    second: Salto_Correr_Derecha_7
+  - first:
+      213: 8478397035100893334
+    second: Salto_Correr_Derecha_8
+  - first:
+      213: -8627782891492201462
+    second: Salto_Correr_Derecha_9
+  - first:
+      213: 4840780838539923393
+    second: Salto_Correr_Derecha_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 669
+        width: 161
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ee8882acc447690800000000000000
+      internalID: -7605369439574757818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 673
+        width: 178
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199d7224997dd1120800000000000000
+      internalID: 2386300430816106897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 721
+        width: 257
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4087391c194567930800000000000000
+      internalID: 4140589892408408068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_3
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 708
+        width: 228
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb62b161ee93c110800000000000000
+      internalID: 1280041409947265986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_4
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 674
+        width: 172
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ebf3a22866991b0800000000000000
+      internalID: -5649371548318974318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 248
+        width: 302
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d31307c54dfed00800000000000000
+      internalID: 1004254735411264856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_6
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 255
+        width: 273
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea781371eaed29320800000000000000
+      internalID: 2563355977222031278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 256
+        width: 219
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b190f41d680c20cf0800000000000000
+      internalID: -287455740928521957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_8
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 259
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690f9e5de2159a570800000000000000
+      internalID: 8478397035100893334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_9
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 253
+        width: 307
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c2a611c25f34880800000000000000
+      internalID: -8627782891492201462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_10
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 252
+        width: 269
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf80bc6688ed2340800000000000000
+      internalID: 4840780838539923393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 165a341178c9bb54baeae35722b4bbcb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Salto_Correr_Derecha_0: -7605369439574757818
+      Salto_Correr_Derecha_1: 2386300430816106897
+      Salto_Correr_Derecha_10: 4840780838539923393
+      Salto_Correr_Derecha_2: 4140589892408408068
+      Salto_Correr_Derecha_3: 1280041409947265986
+      Salto_Correr_Derecha_4: -5649371548318974318
+      Salto_Correr_Derecha_5: 1004254735411264856
+      Salto_Correr_Derecha_6: 2563355977222031278
+      Salto_Correr_Derecha_7: -287455740928521957
+      Salto_Correr_Derecha_8: 8478397035100893334
+      Salto_Correr_Derecha_9: -8627782891492201462
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

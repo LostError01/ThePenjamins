@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 99e276fe95e3f354ba92105c4a4906e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4928157645447946722
+    second: Salto_Correr_Izquierda_Drogas_0
+  - first:
+      213: 1307925474806700802
+    second: Salto_Correr_Izquierda_Drogas_1
+  - first:
+      213: -736362654754981133
+    second: Salto_Correr_Izquierda_Drogas_2
+  - first:
+      213: 344066807965915881
+    second: Salto_Correr_Izquierda_Drogas_3
+  - first:
+      213: -8764988569653663128
+    second: Salto_Correr_Izquierda_Drogas_4
+  - first:
+      213: -8108379023853067866
+    second: Salto_Correr_Izquierda_Drogas_5
+  - first:
+      213: 1842170280350848633
+    second: Salto_Correr_Izquierda_Drogas_6
+  - first:
+      213: 7803054786719737030
+    second: Salto_Correr_Izquierda_Drogas_7
+  - first:
+      213: 7376118782212268956
+    second: Salto_Correr_Izquierda_Drogas_8
+  - first:
+      213: 3443599154095644069
+    second: Salto_Correr_Izquierda_Drogas_9
+  - first:
+      213: -7988629363180598014
+    second: Salto_Correr_Izquierda_Drogas_10
+  - first:
+      213: 5680010720347891742
+    second: Salto_Correr_Izquierda_Drogas_11
+  - first:
+      213: 7156873084485666205
+    second: Salto_Correr_Izquierda_Drogas_12
+  - first:
+      213: 3788376167767896322
+    second: Salto_Correr_Izquierda_Drogas_13
+  - first:
+      213: 8563472086025786283
+    second: Salto_Correr_Izquierda_Drogas_14
+  - first:
+      213: -3325108066847433486
+    second: Salto_Correr_Izquierda_Drogas_15
+  - first:
+      213: -6234923982309060044
+    second: Salto_Correr_Izquierda_Drogas_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_0
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 673
+        width: 458
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1ec0e9445546440800000000000000
+      internalID: 4928157645447946722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_1
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 710
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b99862a4fa62210800000000000000
+      internalID: 1307925474806700802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_2
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 723
+        width: 258
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa3771211ae7c5f0800000000000000
+      internalID: -736362654754981133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_3
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 672
+        width: 180
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea9fcb50fe56c400800000000000000
+      internalID: 344066807965915881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_4
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 670
+        width: 165
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a2f65b5518c5680800000000000000
+      internalID: -8764988569653663128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 252
+        width: 262
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a16203ec30497f80800000000000000
+      internalID: -8108379023853067866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 338
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97618181c14b09910800000000000000
+      internalID: 1842170280350848633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 252
+        width: 304
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c467557cf40a4c60800000000000000
+      internalID: 7803054786719737030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_8
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 312
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9369dab3fc3d5660800000000000000
+      internalID: 7376118782212268956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_9
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 256
+        width: 230
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5add4b88f2f1acf20800000000000000
+      internalID: 3443599154095644069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_10
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 255
+        width: 221
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d8d557befa22190800000000000000
+      internalID: -7988629363180598014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_11
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 253
+        width: 275
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e182fbaf7a373de40800000000000000
+      internalID: 5680010720347891742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_12
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 247
+        width: 295
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95825fc622525360800000000000000
+      internalID: 7156873084485666205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 320
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2017c5b8d04039430800000000000000
+      internalID: 3788376167767896322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_14
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 310
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba35a83bd7097d670800000000000000
+      internalID: 8563472086025786283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_15
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 307
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcd5c394d7dad1d0800000000000000
+      internalID: -3325108066847433486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Izquierda_Drogas_16
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 290
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43297e01ca91979a0800000000000000
+      internalID: -6234923982309060044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Salto_Correr_Izquierda_Drogas_0: 4928157645447946722
+      Salto_Correr_Izquierda_Drogas_1: 1307925474806700802
+      Salto_Correr_Izquierda_Drogas_10: -7988629363180598014
+      Salto_Correr_Izquierda_Drogas_11: 5680010720347891742
+      Salto_Correr_Izquierda_Drogas_12: 7156873084485666205
+      Salto_Correr_Izquierda_Drogas_13: 3788376167767896322
+      Salto_Correr_Izquierda_Drogas_14: 8563472086025786283
+      Salto_Correr_Izquierda_Drogas_15: -3325108066847433486
+      Salto_Correr_Izquierda_Drogas_16: -6234923982309060044
+      Salto_Correr_Izquierda_Drogas_2: -736362654754981133
+      Salto_Correr_Izquierda_Drogas_3: 344066807965915881
+      Salto_Correr_Izquierda_Drogas_4: -8764988569653663128
+      Salto_Correr_Izquierda_Drogas_5: -8108379023853067866
+      Salto_Correr_Izquierda_Drogas_6: 1842170280350848633
+      Salto_Correr_Izquierda_Drogas_7: 7803054786719737030
+      Salto_Correr_Izquierda_Drogas_8: 7376118782212268956
+      Salto_Correr_Izquierda_Drogas_9: 3443599154095644069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

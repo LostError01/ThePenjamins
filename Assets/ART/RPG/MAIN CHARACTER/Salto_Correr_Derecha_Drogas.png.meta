@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 9c47c12af2d5e384c855440d20d06072
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8034277658241061862
+    second: Salto_Correr_Derecha_Drogas_0
+  - first:
+      213: -1530511550494160016
+    second: Salto_Correr_Derecha_Drogas_1
+  - first:
+      213: 8702347949674908064
+    second: Salto_Correr_Derecha_Drogas_2
+  - first:
+      213: 9077922589431821392
+    second: Salto_Correr_Derecha_Drogas_3
+  - first:
+      213: -1070756396875940642
+    second: Salto_Correr_Derecha_Drogas_4
+  - first:
+      213: -6204693796007890088
+    second: Salto_Correr_Derecha_Drogas_5
+  - first:
+      213: 4993498089622823367
+    second: Salto_Correr_Derecha_Drogas_6
+  - first:
+      213: 2638674668313270119
+    second: Salto_Correr_Derecha_Drogas_7
+  - first:
+      213: -5271684992220883237
+    second: Salto_Correr_Derecha_Drogas_8
+  - first:
+      213: -2163074048999556037
+    second: Salto_Correr_Derecha_Drogas_9
+  - first:
+      213: 8630251283733895309
+    second: Salto_Correr_Derecha_Drogas_10
+  - first:
+      213: -848139048576953076
+    second: Salto_Correr_Derecha_Drogas_11
+  - first:
+      213: -1042013346740580213
+    second: Salto_Correr_Derecha_Drogas_12
+  - first:
+      213: 1554684175621400795
+    second: Salto_Correr_Derecha_Drogas_13
+  - first:
+      213: 6906312658843258053
+    second: Salto_Correr_Derecha_Drogas_14
+  - first:
+      213: -1094907637159439211
+    second: Salto_Correr_Derecha_Drogas_15
+  - first:
+      213: -5749698838378160969
+    second: Salto_Correr_Derecha_Drogas_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 670
+        width: 165
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c2fa98903808090800000000000000
+      internalID: -8034277658241061862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 672
+        width: 180
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bc9249ad782cae0800000000000000
+      internalID: -1530511550494160016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 723
+        width: 258
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9c83c6a53f4c870800000000000000
+      internalID: 8702347949674908064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 710
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054f3998f724bfd70800000000000000
+      internalID: 9077922589431821392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_4
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 673
+        width: 458
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc7b3beab8e321f0800000000000000
+      internalID: -1070756396875940642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 247
+        width: 295
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85331eccddf74e9a0800000000000000
+      internalID: -6204693796007890088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 253
+        width: 275
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c16f8a4e087c4540800000000000000
+      internalID: 4993498089622823367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 255
+        width: 221
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76752aa61a47e9420800000000000000
+      internalID: 2638674668313270119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_8
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 256
+        width: 230
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd69aee1e6637d6b0800000000000000
+      internalID: -5271684992220883237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_9
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 312
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cf386ec973bf1e0800000000000000
+      internalID: -2163074048999556037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_10
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 252
+        width: 304
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88515941dfc4c770800000000000000
+      internalID: 8630251283733895309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_11
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 338
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05de69670eca34f0800000000000000
+      internalID: -848139048576953076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_12
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 252
+        width: 262
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80df48c1660a81f0800000000000000
+      internalID: -1042013346740580213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 307
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8a5d94509539510800000000000000
+      internalID: 1554684175621400795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_14
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 310
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccc222a5c628df50800000000000000
+      internalID: 6906312658843258053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_15
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 320
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594df391e4b1ec0f0800000000000000
+      internalID: -1094907637159439211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salto_Correr_Derecha_Drogas_16
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 290
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc5ef4ae57f430b0800000000000000
+      internalID: -5749698838378160969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Salto_Correr_Derecha_Drogas_0: -8034277658241061862
+      Salto_Correr_Derecha_Drogas_1: -1530511550494160016
+      Salto_Correr_Derecha_Drogas_10: 8630251283733895309
+      Salto_Correr_Derecha_Drogas_11: -848139048576953076
+      Salto_Correr_Derecha_Drogas_12: -1042013346740580213
+      Salto_Correr_Derecha_Drogas_13: 1554684175621400795
+      Salto_Correr_Derecha_Drogas_14: 6906312658843258053
+      Salto_Correr_Derecha_Drogas_15: -1094907637159439211
+      Salto_Correr_Derecha_Drogas_16: -5749698838378160969
+      Salto_Correr_Derecha_Drogas_2: 8702347949674908064
+      Salto_Correr_Derecha_Drogas_3: 9077922589431821392
+      Salto_Correr_Derecha_Drogas_4: -1070756396875940642
+      Salto_Correr_Derecha_Drogas_5: -6204693796007890088
+      Salto_Correr_Derecha_Drogas_6: 4993498089622823367
+      Salto_Correr_Derecha_Drogas_7: 2638674668313270119
+      Salto_Correr_Derecha_Drogas_8: -5271684992220883237
+      Salto_Correr_Derecha_Drogas_9: -2163074048999556037
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
