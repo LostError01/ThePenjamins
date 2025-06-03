@@ -1437,7 +1437,7 @@ GameObject:
   - component: {fileID: 447177330}
   m_Layer: 0
   m_Name: DIALOGO
-  m_TagString: Untagged
+  m_TagString: Abril_Dialog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2662,7 +2662,7 @@ GameObject:
   - component: {fileID: 823896121}
   m_Layer: 0
   m_Name: DIALOGO
-  m_TagString: Untagged
+  m_TagString: Seba_Dialog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4091,7 +4091,7 @@ GameObject:
   - component: {fileID: 1125042652}
   m_Layer: 0
   m_Name: DIALOGO
-  m_TagString: Untagged
+  m_TagString: Natalia_Dialog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5206,6 +5206,16 @@ MonoBehaviour:
   IshiImg: {fileID: 683467643}
   AmbarDialog: {fileID: 1856614819}
   AmbarImg: {fileID: 1723611128}
+  AbrilDialog: {fileID: 529469113}
+  AbrilImg: {fileID: 1821035036}
+  TamDialog: {fileID: 1725577044}
+  TamImg: {fileID: 1055838965}
+  NataliaDialog: {fileID: 265441059}
+  NataliaImg: {fileID: 1058005410}
+  SebaDialog: {fileID: 1694830537}
+  SebaImg: {fileID: 710135846}
+  BmorenoDialog: {fileID: 0}
+  BmorenoImg: {fileID: 0}
 --- !u!95 &1400492546
 Animator:
   serializedVersion: 7
@@ -6677,7 +6687,7 @@ GameObject:
   - component: {fileID: 1982877053}
   m_Layer: 0
   m_Name: DIALOGO
-  m_TagString: Untagged
+  m_TagString: Tam_Dialog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

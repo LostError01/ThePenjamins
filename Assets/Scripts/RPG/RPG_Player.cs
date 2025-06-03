@@ -24,6 +24,26 @@ public class RPG_Player : MonoBehaviour
     [SerializeField] private RawImage AmbarDialog;
     [SerializeField] private SpriteRenderer AmbarImg;
 
+    [Header("Abril")]
+    [SerializeField] private RawImage AbrilDialog;
+    [SerializeField] private SpriteRenderer AbrilImg;
+
+    [Header("Tamara")]
+    [SerializeField] private RawImage TamDialog;
+    [SerializeField] private SpriteRenderer TamImg;
+
+    [Header("Natalia")]
+    [SerializeField] private RawImage NataliaDialog;
+    [SerializeField] private SpriteRenderer NataliaImg;
+
+    [Header("Seba")]
+    [SerializeField] private RawImage SebaDialog;
+    [SerializeField] private SpriteRenderer SebaImg;
+
+    [Header("Bmoreno")]
+    [SerializeField] private RawImage BmorenoDialog;
+    [SerializeField] private SpriteRenderer BmorenoImg;
+
     //Flags de minijuegos
     private bool MG01 = false, MG02 = false, MG03 = false;
 
@@ -123,6 +143,26 @@ public class RPG_Player : MonoBehaviour
             AmbarDialog.enabled = true;
             AmbarImg.enabled = true;
         }
+        if (collision.CompareTag("Abril_Dialog"))
+        {
+            AbrilDialog.enabled = true;
+            AbrilImg.enabled = true;
+        }
+        if (collision.CompareTag("Tam_Dialog"))
+        {
+            TamDialog.enabled = true;
+            TamImg.enabled = true;
+        }
+        if (collision.CompareTag("Natalia_Dialog"))
+        {
+            NataliaDialog.enabled = true;
+            NataliaImg.enabled = true;
+        }
+        if (collision.CompareTag("Seba_Dialog"))
+        {
+            SebaDialog.enabled = true;
+            SebaImg.enabled = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -154,6 +194,26 @@ public class RPG_Player : MonoBehaviour
         {
             AmbarDialog.enabled = false;
             AmbarImg.enabled = false;
+        }
+        if (collision.CompareTag("Abril_Dialog"))
+        {
+            AbrilDialog.enabled = false;
+            AbrilImg.enabled = false;
+        }
+        if (collision.CompareTag("Tam_Dialog"))
+        {
+            TamDialog.enabled = false;
+            TamImg.enabled = false;
+        }
+        if (collision.CompareTag("Natalia_Dialog"))
+        {
+            NataliaDialog.enabled = false;
+            NataliaImg.enabled = false;
+        }
+        if (collision.CompareTag("Seba_Dialog"))
+        {
+            SebaDialog.enabled = false;
+            SebaImg.enabled = false;
         }
     }
 }
