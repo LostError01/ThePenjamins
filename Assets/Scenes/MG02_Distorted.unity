@@ -2228,12 +2228,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 1178277872416654800, guid: 327d89048a8ad8840925befdbe99257e, type: 3}
-  - {fileID: 3731280758918376055, guid: a6fc6abb78fab464d990a8217e096ea2, type: 3}
+  - {fileID: 6927845725102776089, guid: c3604942104e85144af04bef33cb72da, type: 3}
+  - {fileID: 6927845725102776089, guid: c3604942104e85144af04bef33cb72da, type: 3}
   minTime: 1
   maxTime: 2
-  AlturaEnemigo01: 0.3
-  AlturaEnemigo02: 3
+  AlturaEnemigo01: 0.4
+  AlturaEnemigo02: 2.7
   velocidadEnemigo: 8
 --- !u!61 &1991614362
 BoxCollider2D:

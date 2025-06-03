@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2542c2bab397f5743b80b7144b1f859f
+guid: b310578e8b36a0f44ad01a56d5651f0d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8907813631486415258
-    second: Hongos_0
+      213: 3535013351324131662
+    second: Cam2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 275
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hongos_0
+      name: Cam2_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 61
-        width: 480
-        height: 482
+        x: 889
+        y: 136
+        width: 147
+        height: 768
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66eaed1a2b6116480800000000000000
-      internalID: -8907813631486415258
+      spriteID: e4120f9e9e3ee0130800000000000000
+      internalID: 3535013351324131662
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hongos_0: -8907813631486415258
+      Cam2_0: 3535013351324131662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

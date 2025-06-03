@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2542c2bab397f5743b80b7144b1f859f
+guid: 45d48784718bf4d49beac5aae17dbd0e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8907813631486415258
-    second: Hongos_0
+      213: -2074019165324368890
+    second: Bote_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 225
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hongos_0
+      name: Bote_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 61
-        width: 480
-        height: 482
+        x: 159
+        y: 8
+        width: 312
+        height: 487
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66eaed1a2b6116480800000000000000
-      internalID: -8907813631486415258
+      spriteID: 6042d79ce8a9733e0800000000000000
+      internalID: -2074019165324368890
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hongos_0: -8907813631486415258
+      Bote_0: -2074019165324368890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
