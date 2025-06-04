@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI; // Asegúrate de tener esta línea para usar UI Text
+using System.Collections; // Necesario para usar corutinas
+using UnityEngine.SceneManagement; // Para manejar escenas si es necesario
 
 public class CombatManager : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class CombatManager : MonoBehaviour
     public int minAttackDamage = 10;
     public int maxAttackDamage = 50;
 
-    //Rango de da del ataque enemigo
+    //Rango de daño del ataque enemigo
     public int enemyMinAttackDamage = 50;
     public int enemyMaxAttackDamage = 100;
 
@@ -44,10 +46,15 @@ public class CombatManager : MonoBehaviour
         // Actualizar barras de vida
         playerHealthBar.value = playerHealth;
         enemyHealthBar.value = enemyHealth;
-        // Verificar si el jugador o el enemigo ha ganado
+
         if (playerHealth <= 0 || enemyHealth <= 0)
         {
             CheckVictory();
+        }
+
+        if(playerHealth <=0)
+        {
+            SceneManager.LoadScene("GameOver"); // Cargar escena de Game Over si el jugador pierde
         }
     }
 
@@ -60,19 +67,17 @@ public class CombatManager : MonoBehaviour
         waitingForPlayerAction = true;
     }
 
-    void StartEnemyTurn()
+    IEnumerator EnemyTurnWithDelay()
     {
-        Debug.Log("Turno del enemigo");
-        currentTurn = TurnState.EnemyTurn;
+        yield return new WaitForSeconds(0.5f); // Breve pausa antes de acción enemiga
 
-        // Decidir acción aleatoria del enemigo
         if (Random.Range(0, 2) == 0)
         {
-            EnemyAttack();
+            yield return StartCoroutine(EnemyAttackWithAnimation());
         }
         else
         {
-            EnemyDefend();
+            yield return StartCoroutine(EnemyDefendWithAnimation());
         }
 
         EndTurn();
@@ -97,9 +102,7 @@ public class CombatManager : MonoBehaviour
     {
         if (currentTurn == TurnState.PlayerTurn && waitingForPlayerAction)
         {
-            PlayerAttack();
-            waitingForPlayerAction = false;
-            StartEnemyTurn();
+            StartCoroutine(PlayerAttackWithAnimation());
         }
     }
 
@@ -107,16 +110,21 @@ public class CombatManager : MonoBehaviour
     {
         if (currentTurn == TurnState.PlayerTurn && waitingForPlayerAction)
         {
-            PlayerDefend();
-            waitingForPlayerAction = false;
-            StartEnemyTurn();
+            StartCoroutine(PlayerDefendWithAnimation());
         }
     }
 
-    // --- Ataques y Defensas ---
+    // --- Ataques y Defensas con retraso ---
 
-    void PlayerAttack()
+    IEnumerator PlayerAttackWithAnimation()
     {
+        waitingForPlayerAction = false;
+        playerAnimator.SetTrigger("Attack"); // Activar animación de ataque
+
+        float animationDuration = 0.5f; // Ajusta esto según la duración real de tu animación de ataque
+        yield return new WaitForSeconds(animationDuration); // Esperar a que termine la animación
+
+        // Calcular y aplicar daño
         int damage = Random.Range(minAttackDamage, maxAttackDamage + 1);
         int effectiveDamage = isEnemyDefending ? damage / 2 : damage;
 
@@ -125,16 +133,39 @@ public class CombatManager : MonoBehaviour
 
         Debug.Log($"Jugador ataca al enemigo con {damage} de daño. El enemigo recibe {effectiveDamage} puntos de daño.");
         CheckVictory();
+
+        // Completar los 1 segundos totales si la animación fue más corta
+        float remainingTime = 1.0f - animationDuration;
+        if (remainingTime > 0) yield return new WaitForSeconds(remainingTime);
+
+        StartCoroutine(EnemyTurnWithDelay());
     }
 
-    void PlayerDefend()
+    IEnumerator PlayerDefendWithAnimation()
     {
+        waitingForPlayerAction = false;
+        playerAnimator.SetTrigger("Defense"); // Activar animación de defensa
+
+        float animationDuration = 0.5f; // Ajusta según la duración de tu animación de defensa
+        yield return new WaitForSeconds(animationDuration);
+
         isPlayerDefending = true;
         Debug.Log("Jugador se defiende. Reducirá el daño recibido a la mitad este turno.");
+
+        // Completar los 1 segundos totales si la animación fue más corta
+        float remainingTime = 1.0f - animationDuration;
+        if (remainingTime > 0) yield return new WaitForSeconds(remainingTime);
+
+        StartCoroutine(EnemyTurnWithDelay());
     }
 
-    void EnemyAttack()
+    IEnumerator EnemyAttackWithAnimation()
     {
+        enemyAnimator.SetTrigger("GodAttack");
+
+        float animationDuration = 0.5f;
+        yield return new WaitForSeconds(animationDuration);
+
         int damage = Random.Range(enemyMinAttackDamage, enemyMaxAttackDamage + 1);
         int effectiveDamage = isPlayerDefending ? damage / 2 : damage;
 
@@ -143,12 +174,23 @@ public class CombatManager : MonoBehaviour
 
         Debug.Log($"Enemigo ataca al jugador con {damage} de daño. El jugador recibe {effectiveDamage} puntos de daño.");
         CheckVictory();
+
+        float remainingTime = 1.0f - animationDuration;
+        if (remainingTime > 0) yield return new WaitForSeconds(remainingTime);
     }
 
-    void EnemyDefend()
+    IEnumerator EnemyDefendWithAnimation()
     {
+        enemyAnimator.SetTrigger("GodDefense");
+
+        float animationDuration = 0.5f;
+        yield return new WaitForSeconds(animationDuration);
+
         isEnemyDefending = true;
         Debug.Log("Enemigo se defiende. Reducirá el daño recibido a la mitad este turno.");
+
+        float remainingTime = 1.0f - animationDuration;
+        if (remainingTime > 0) yield return new WaitForSeconds(remainingTime);
     }
 
     // --- Verificar victoria ---
