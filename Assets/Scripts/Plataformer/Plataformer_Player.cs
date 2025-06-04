@@ -32,6 +32,7 @@ public class Plataformer_Player : MonoBehaviour
 
     private bool salto = false;
     private int checkpointIndex = 1; // Índice del checkpoint actual, se puede usar para lógica adicional si es necesario
+    private bool dialogoFlag = false;
 
     private void Start()
     {
@@ -48,7 +49,7 @@ public class Plataformer_Player : MonoBehaviour
             salto = true;
         }   
 
-        if(dialogoFinal.isActiveAndEnabled)
+        if(dialogoFlag)
         {
             if (Input.GetKeyDown(KeyCode.KeypadEnter))
             {
@@ -147,6 +148,7 @@ public class Plataformer_Player : MonoBehaviour
         if(collision.CompareTag("MetaPlataformer"))
         {
             dialogoFinal.enabled = true; // Habilitar el diálogo final
+            dialogoFlag = true; // Activar la bandera de diálogo para permitir la interacción
         }
     }
 
@@ -155,6 +157,7 @@ public class Plataformer_Player : MonoBehaviour
         if (collision.CompareTag("MetaPlataformer"))
         {
             dialogoFinal.enabled = false; // Deshabilitar el diálogo final al salir de la meta
+            dialogoFlag = false; // Desactivar la bandera de diálogo
         }
     }
 }

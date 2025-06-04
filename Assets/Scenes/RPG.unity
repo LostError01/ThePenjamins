@@ -6201,6 +6201,7 @@ MonoBehaviour:
   BmorenoDialog: {fileID: 678993676}
   BmorenoText: {fileID: 275067143}
   BmorenoImg: {fileID: 1576721890}
+  Merkatext: {fileID: 693243014}
 --- !u!95 &1400492546
 Animator:
   serializedVersion: 7
