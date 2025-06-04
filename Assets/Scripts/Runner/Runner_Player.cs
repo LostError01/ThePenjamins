@@ -80,7 +80,6 @@ public class Runner_Player : MonoBehaviour
         {
             //Aumentar el delta time
             Time.timeScale += 0.05f; // Aumenta la velocidad del juego al recoger un niño
-            Debug.Log("Niño recogido, velocidad del juego aumentada a: " + Time.timeScale);
         }
     }
 }
