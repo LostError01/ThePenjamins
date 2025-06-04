@@ -12,8 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/RPG.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/SHOP_DEALER.unity
+    guid: 9a6415c2d8b4c224e9d539db4ee3053b
+  - enabled: 1
     path: Assets/Scenes/MG01.unity
     guid: fb5bb4e292b924949bbca6201d0e40b2
+  - enabled: 1
+    path: Assets/Scenes/MG01_NORMAL.unity
+    guid: 05d21bd4be7d6124cbea9eb3529e79a9
   - enabled: 1
     path: Assets/Scenes/MG02.unity
     guid: 41032f70878e92245aa6f00f1f761583

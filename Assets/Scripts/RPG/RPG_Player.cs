@@ -44,6 +44,7 @@ public class RPG_Player : MonoBehaviour
     [SerializeField] private RawImage BmorenoDialog;
     [SerializeField] private Text BmorenoText;
     [SerializeField] private SpriteRenderer BmorenoImg;
+    [SerializeField] private Text Merkatext;
 
     //Flags de minijuegos
     private bool MG01 = false, MG02 = false, MG03 = false;
@@ -93,7 +94,7 @@ public class RPG_Player : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.KeypadEnter))
             {
-                SceneManager.LoadScene("MG01");
+                SceneManager.LoadScene("MG01_NORMAL");
             }
         }
 
@@ -171,6 +172,7 @@ public class RPG_Player : MonoBehaviour
             BmorenoDialog.enabled = true;
             BmorenoImg.enabled = true;
             BmorenoText.enabled = true;
+            Merkatext.enabled = true;
         }
     }
 
@@ -231,6 +233,7 @@ public class RPG_Player : MonoBehaviour
             BmorenoDialog.enabled = false;
             BmorenoImg.enabled = false;
             BmorenoText.enabled = false;
+            Merkatext.enabled = false;
         }
     }
 }

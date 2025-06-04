@@ -14,7 +14,6 @@ public class MainMenuBtns : MonoBehaviour
         Application.Quit();
 
         // If running in the editor, stop playing
-
     }
 
 }
