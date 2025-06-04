@@ -31,6 +31,9 @@ public class Plataformer_Player : MonoBehaviour
     [Header("DialogoFinal")]
     [SerializeField] private Text dialogoFinal; // Referencia al objeto de diálogo final
 
+    [Header("Animator del Player")]
+    [SerializeField] private Animator playerAnimator; // Referencia al Animator del jugador
+
     private bool salto = false;
     private int checkpointIndex = 1; // Índice del checkpoint actual, se puede usar para lógica adicional si es necesario
     private bool dialogoFlag = false;
@@ -50,6 +53,7 @@ public class Plataformer_Player : MonoBehaviour
         if(Input.GetButtonDown("Jump"))
         {
             salto = true;
+            playerAnimator.SetTrigger("Jump"); // Activar animación de salto
         }   
 
         if(dialogoFlag)
@@ -80,8 +84,9 @@ public class Plataformer_Player : MonoBehaviour
     {
         Vector3 velocidadObjetivo = new Vector2(mover, PlayerRb.linearVelocity.y);
         PlayerRb.linearVelocity = Vector3.SmoothDamp(PlayerRb.linearVelocity, velocidadObjetivo, ref velocidad, suavizadoMovimiento);
+        playerAnimator.SetBool("isMoving", mover != 0); // Activar animación de movimiento si se está moviendo
 
-        if(mover > 0 && !mirandoDerecha)
+        if (mover > 0 && !mirandoDerecha)
         {
             Girar();
         }

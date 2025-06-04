@@ -506,6 +506,7 @@ MonoBehaviour:
   - {fileID: 1748588334}
   - {fileID: 1826727985}
   dialogoFinal: {fileID: 1775325110}
+  playerAnimator: {fileID: 50915227}
 --- !u!95 &50915227
 Animator:
   serializedVersion: 7
