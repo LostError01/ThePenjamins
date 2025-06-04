@@ -23,6 +23,12 @@ public class Runner_Player : MonoBehaviour
     [Header("Velocidad de Progreso en Barra")]
     [SerializeField] private float velocidadProgreso; // Velocidad de incremento de la barra de progreso
 
+    [Header("Niño")]
+    [SerializeField] AudioSource sonidoNiño; // Sonido al recoger un niño
+    [SerializeField] AudioClip matarNiño; // Clip de sonido al recoger un niño
+
+    private int puntaje;
+
     private void Start()
     {
         // ---------- Obtener componentes ----------
@@ -60,6 +66,16 @@ public class Runner_Player : MonoBehaviour
         //Si llega a la maxima barra de progreso, cargar la escena RPG
         if (barraProgreso.value >= barraProgreso.maxValue)
         {
+            if (SceneManager.GetActiveScene().name == "MG02")
+            {
+                puntaje = UnityEngine.Random.Range(2, 5); // Generar un puntaje aleatorio entre 1 y 10
+                RPG_Player.puntos += puntaje; // Incrementar puntos al completar el diálogo
+            }
+            if (SceneManager.GetActiveScene().name == "MG02_Distorted")
+            {
+                puntaje = UnityEngine.Random.Range(5, 10); // Generar un puntaje aleatorio entre 1 y 10
+                RPG_Player.puntos += puntaje; // Incrementar puntos al completar el diálogo
+            }
             SceneManager.LoadScene("RPG"); // Cargar la escena RPG
         }
     }
@@ -80,6 +96,7 @@ public class Runner_Player : MonoBehaviour
         {
             //Aumentar el delta time
             Time.timeScale += 0.05f; // Aumenta la velocidad del juego al recoger un niño
+            sonidoNiño.PlayOneShot(matarNiño); // Reproducir sonido al recoger un niño
         }
     }
 }
