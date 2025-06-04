@@ -1680,6 +1680,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   radio: 0.3
+  escenaActual: MG02
 --- !u!61 &1274079548
 BoxCollider2D:
   m_ObjectHideFlags: 0

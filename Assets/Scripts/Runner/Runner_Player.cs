@@ -13,6 +13,9 @@ public class Runner_Player : MonoBehaviour
     [SerializeField] private LayerMask mascaraSuelo;
     [SerializeField] private float radio;
 
+    [Header("Escena Actual")]
+    [SerializeField] private string escenaActual;
+
     private void Start()
     {
         // ---------- Obtener componentes ----------
@@ -51,7 +54,7 @@ public class Runner_Player : MonoBehaviour
     {
         if (collision.CompareTag("R_Enemy"))
         {
-            SceneManager.LoadScene("MG02");
+            SceneManager.LoadScene(escenaActual);
         }
     }
 }
