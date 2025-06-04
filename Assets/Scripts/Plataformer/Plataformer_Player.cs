@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI; // Asegúrate de tener esta línea para usar UI Text
@@ -34,6 +35,8 @@ public class Plataformer_Player : MonoBehaviour
     private int checkpointIndex = 1; // Índice del checkpoint actual, se puede usar para lógica adicional si es necesario
     private bool dialogoFlag = false;
 
+    private int puntaje;
+
     private void Start()
     {
         // ---------- Obtener componentes ----------
@@ -53,9 +56,15 @@ public class Plataformer_Player : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.KeypadEnter))
             {
+                if (SceneManager.GetActiveScene().name == "MG01_NORMAL")
+                {
+                    puntaje = UnityEngine.Random.Range(1, 5); // Generar un puntaje aleatorio entre 1 y 10
+                    RPG_Player.puntos += puntaje; // Incrementar puntos al completar el diálogo
+                }
                 SceneManager.LoadScene("RPG"); // Cargar la escena del menú principal al presionar Enter
             }
         }
+
     }
 
     private void FixedUpdate()

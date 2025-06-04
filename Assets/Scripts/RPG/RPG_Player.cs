@@ -46,6 +46,9 @@ public class RPG_Player : MonoBehaviour
     [SerializeField] private SpriteRenderer BmorenoImg;
     [SerializeField] private Text Merkatext;
 
+    // ----- P U N T O S -----
+    public static int puntos;
+
     //Flags de minijuegos
     private bool MG01 = false, MG02 = false, MG03 = false;
     private bool bmorenoFlag = false;
