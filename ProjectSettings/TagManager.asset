@@ -17,6 +17,9 @@ TagManager:
   - Natalia_Dialog
   - Seba_Dialog
   - Dealer_Dialog
+  - CheckpointChange
+  - CheckpointChange01
+  - MetaPlataformer
   layers:
   - Default
   - TransparentFX
