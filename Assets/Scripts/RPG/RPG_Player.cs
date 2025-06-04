@@ -42,6 +42,7 @@ public class RPG_Player : MonoBehaviour
 
     [Header("Bmoreno")]
     [SerializeField] private RawImage BmorenoDialog;
+    [SerializeField] private Text BmorenoText;
     [SerializeField] private SpriteRenderer BmorenoImg;
 
     //Flags de minijuegos
@@ -133,7 +134,9 @@ public class RPG_Player : MonoBehaviour
             MG03 = true;
         }
 
-        if(collision.CompareTag("Ishi_Dialog"))
+        // --------- Entrar a Dialogos ---------
+
+        if (collision.CompareTag("Ishi_Dialog"))
         {
             IshiDialog.enabled = true;
             IshiImg.enabled = true;
@@ -163,6 +166,12 @@ public class RPG_Player : MonoBehaviour
             SebaDialog.enabled = true;
             SebaImg.enabled = true;
         }
+        if (collision.CompareTag("Dealer_Dialog"))
+        {
+            BmorenoDialog.enabled = true;
+            BmorenoImg.enabled = true;
+            BmorenoText.enabled = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -184,6 +193,8 @@ public class RPG_Player : MonoBehaviour
             MgText01.enabled = false;
             MG03 = false;
         }
+
+        // --------- Salir de Dialogos ---------
 
         if (collision.CompareTag("Ishi_Dialog"))
         {
@@ -214,6 +225,12 @@ public class RPG_Player : MonoBehaviour
         {
             SebaDialog.enabled = false;
             SebaImg.enabled = false;
+        }
+        if (collision.CompareTag("Dealer_Dialog"))
+        {
+            BmorenoDialog.enabled = false;
+            BmorenoImg.enabled = false;
+            BmorenoText.enabled = false;
         }
     }
 }

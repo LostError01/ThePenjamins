@@ -16,6 +16,7 @@ TagManager:
   - Tam_Dialog
   - Natalia_Dialog
   - Seba_Dialog
+  - Dealer_Dialog
   layers:
   - Default
   - TransparentFX
