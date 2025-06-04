@@ -501,6 +501,8 @@ MonoBehaviour:
   posicionSuelo: {fileID: 1286158748}
   dimensionesCaja: {x: 1.2, y: 0.25, z: 0}
   enSuelo: 0
+  checkpoint: []
+  dialogoFinal: {fileID: 0}
 --- !u!1 &83822047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,7 +1420,7 @@ GameObject:
   - component: {fileID: 179481147}
   - component: {fileID: 179481146}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: reiniciar_txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3187,6 +3189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b46dea10e322e5a449a5368ce514323b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BotonDePausa: {fileID: 0}
 --- !u!114 &440278009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10899,7 +10902,7 @@ RectTransform:
   m_GameObject: {fileID: 1798176085}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.90101, y: 0.90101, z: 0.90101}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 179481145}
@@ -10932,8 +10935,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
+    m_HighlightedColor: {r: 0.89433956, g: 0.89433956, b: 0.89433956, a: 0.0627451}
+    m_PressedColor: {r: 0.6981132, g: 0.6644664, b: 0.53609824, a: 0}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
