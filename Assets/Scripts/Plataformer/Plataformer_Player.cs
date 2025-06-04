@@ -75,7 +75,7 @@ public class Plataformer_Player : MonoBehaviour
                 }
                 if(SceneManager.GetActiveScene().name == "MG01")
                 {
-                    puntaje = UnityEngine.Random.Range(2, 9); // Generar un puntaje aleatorio entre 1 y 10
+                    puntaje = UnityEngine.Random.Range(5, 10); // Generar un puntaje aleatorio entre 1 y 10
                     RPG_Player.puntos += puntaje; // Incrementar puntos al completar el diálogo
                 }
                 SceneManager.LoadScene("RPG"); // Cargar la escena del menú principal al presionar Enter

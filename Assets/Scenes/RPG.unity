@@ -2013,7 +2013,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285128751}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6527,7 +6527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &846215143
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6599,7 +6599,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846215142}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 519420031}
@@ -6613,7 +6613,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 15
   m_TargetDisplay: 0
 --- !u!1 &867288702
 GameObject:
@@ -7392,7 +7392,7 @@ Transform:
   m_GameObject: {fileID: 940710960}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.6, y: 21.7, z: -1.3982989}
+  m_LocalPosition: {x: -13.95, y: 21.7, z: -1.3982989}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8903,7 +8903,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062309560}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10177,7 +10177,7 @@ GameObject:
   - component: {fileID: 1193457116}
   m_Layer: 0
   m_Name: DIALOGO
-  m_TagString: Untagged
+  m_TagString: Isidro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11759,7 +11759,13 @@ MonoBehaviour:
   BmorenoText: {fileID: 275067143}
   BmorenoImg: {fileID: 1576721890}
   Merkatext: {fileID: 693243014}
-  MG03Object: {fileID: 0}
+  FepoDialog: {fileID: 2040503388}
+  FepoImg: {fileID: 1062309562}
+  YordiDialog: {fileID: 846215146}
+  YordiImg: {fileID: 285128753}
+  IsidroCanvas: {fileID: 1731292411}
+  IsidroImg: {fileID: 1720136834}
+  MG03Object: {fileID: 1388714438}
 --- !u!95 &1400492546
 Animator:
   serializedVersion: 7
@@ -13032,7 +13038,7 @@ GameObject:
   - component: {fileID: 1606746659}
   m_Layer: 0
   m_Name: DIALOGO
-  m_TagString: Untagged
+  m_TagString: Fepo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14120,7 +14126,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720136832}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14345,7 +14351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1731292408
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14417,7 +14423,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731292407}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 519420031}
@@ -14431,7 +14437,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 15
   m_TargetDisplay: 0
 --- !u!1 &1748751338
 GameObject:
@@ -15512,7 +15518,7 @@ GameObject:
   - component: {fileID: 1898839358}
   m_Layer: 0
   m_Name: DIALOGO
-  m_TagString: Untagged
+  m_TagString: Yordi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16397,7 +16403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2040503385
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16469,7 +16475,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040503384}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 519420031}
@@ -16715,7 +16721,7 @@ Transform:
   m_GameObject: {fileID: 2094666781}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.8, y: 22.04, z: -1.3982989}
+  m_LocalPosition: {x: 18, y: 22.04, z: -1.3982989}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

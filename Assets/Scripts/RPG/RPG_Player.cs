@@ -46,11 +46,23 @@ public class RPG_Player : MonoBehaviour
     [SerializeField] private SpriteRenderer BmorenoImg;
     [SerializeField] private Text Merkatext;
 
+    [Header("Fepo")]
+    [SerializeField] private Canvas FepoDialog;
+    [SerializeField] private SpriteRenderer FepoImg;
+
+    [Header("Yordi")]
+    [SerializeField] private Canvas YordiDialog;
+    [SerializeField] private SpriteRenderer YordiImg;
+
+    [Header("Isidro")]
+    [SerializeField] private Canvas IsidroCanvas;
+    [SerializeField] private SpriteRenderer IsidroImg;
+
     [Header("Minijuego Numero 3")]
     [SerializeField] private GameObject MG03Object;
 
     // ----- P U N T O S -----
-    public static int puntos = 50;
+    public static int puntos;
 
     //Flags de minijuegos
     private bool MG01 = false, MG02 = false, MG03 = false;
@@ -221,6 +233,26 @@ public class RPG_Player : MonoBehaviour
             Merkatext.enabled = true;
             bmorenoFlag = true;
         }
+
+        // --------- NPCS --------- 
+
+        if(collision.CompareTag("Fepo"))
+        {
+            FepoDialog.enabled = true;
+            FepoImg.enabled = true;
+        }
+
+        if (collision.CompareTag("Yordi") && ShopManager.lsdFlag || collision.CompareTag("Yordi") && ShopManager.hongosFlag)
+        {
+            YordiDialog.enabled = true;
+            YordiImg.enabled = true;
+        }
+
+        if (collision.CompareTag("Isidro") && ShopManager.alcoholFlag)
+        {
+            IsidroCanvas.enabled = true;
+            IsidroImg.enabled = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -282,6 +314,26 @@ public class RPG_Player : MonoBehaviour
             BmorenoText.enabled = false;
             Merkatext.enabled = false;
             bmorenoFlag = false;
+        }
+
+        // --------- NPCS ---------
+
+        if (collision.CompareTag("Fepo"))
+        {
+            FepoDialog.enabled = false;
+            FepoImg.enabled = false;
+        }
+
+        if (collision.CompareTag("Yordi") && ShopManager.lsdFlag || collision.CompareTag("Yordi") && ShopManager.hongosFlag)
+        {
+            YordiDialog.enabled = false;
+            YordiImg.enabled = false;
+        }
+
+        if (collision.CompareTag("Isidro") && ShopManager.alcoholFlag)
+        {
+            IsidroCanvas.enabled = false;
+            IsidroImg.enabled = false;
         }
     }
 }
