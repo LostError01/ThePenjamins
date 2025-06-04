@@ -10963,6 +10963,7 @@ MonoBehaviour:
   BmorenoText: {fileID: 275067143}
   BmorenoImg: {fileID: 1576721890}
   Merkatext: {fileID: 693243014}
+  MG03Object: {fileID: 1388714438}
 --- !u!95 &1400492546
 Animator:
   serializedVersion: 7
