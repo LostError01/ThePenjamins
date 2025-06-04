@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: d8d0e907eee29684786194675aa9b9ec
+guid: 959a702abcdd8ac4da01d7eeaa23446c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5590180047192728015
-    second: Tiendita2Completa_0
-  - first:
-      213: -3849246767479692678
-    second: Tiendita2Completa_1
-  - first:
-      213: 3459797742546342378
-    second: Tiendita2Completa_2
+      213: 5006397054344985568
+    second: Bloques_Normal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiendita2Completa_0
+      name: Bloques_Normal_0
       rect:
         serializedVersion: 2
-        x: 273
-        y: 166
-        width: 985
-        height: 791
+        x: 0
+        y: 0
+        width: 3840
+        height: 5400
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13ed9987dd0bb62b0800000000000000
-      internalID: -5590180047192728015
+      spriteID: 0eb7bcc889b4a7540800000000000000
+      internalID: 5006397054344985568
       vertices: []
       indices: 
       edges: []
@@ -144,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a81da1b34cdb9ce4e8909986d435a721
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -153,10 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Tiendita2Completa_0: -5590180047192728015
-      Tiendita2Completa_1: -3849246767479692678
-      Tiendita2Completa_2: 3459797742546342378
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

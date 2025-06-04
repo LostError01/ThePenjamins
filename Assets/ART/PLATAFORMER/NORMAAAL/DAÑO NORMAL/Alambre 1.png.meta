@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: d8d0e907eee29684786194675aa9b9ec
+guid: e290f35a1115d3a46a6578bc5b53fec9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5590180047192728015
-    second: Tiendita2Completa_0
-  - first:
-      213: -3849246767479692678
-    second: Tiendita2Completa_1
-  - first:
-      213: 3459797742546342378
-    second: Tiendita2Completa_2
+      213: 6187809102292567496
+    second: Alambre 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiendita2Completa_0
+      name: Alambre 1_0
       rect:
         serializedVersion: 2
-        x: 273
-        y: 166
-        width: 985
-        height: 791
+        x: 39
+        y: 47
+        width: 1344
+        height: 441
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13ed9987dd0bb62b0800000000000000
-      internalID: -5590180047192728015
+      spriteID: 8c5c31818938fd550800000000000000
+      internalID: 6187809102292567496
       vertices: []
       indices: 
       edges: []
@@ -144,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a81da1b34cdb9ce4e8909986d435a721
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -153,10 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Tiendita2Completa_0: -5590180047192728015
-      Tiendita2Completa_1: -3849246767479692678
-      Tiendita2Completa_2: 3459797742546342378
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
