@@ -127,7 +127,7 @@ TextureImporter:
         width: 985
         height: 791
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,55 +140,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Tiendita2Completa_1
-      rect:
-        serializedVersion: 2
-        x: 1222
-        y: 943
-        width: 21
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a726d8b857ab49ac0800000000000000
-      internalID: -3849246767479692678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiendita2Completa_2
-      rect:
-        serializedVersion: 2
-        x: 253
-        y: 583
-        width: 8
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae15c2f47bba30030800000000000000
-      internalID: 3459797742546342378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a81da1b34cdb9ce4e8909986d435a721
     internalID: 0
     vertices: []
     indices: 
