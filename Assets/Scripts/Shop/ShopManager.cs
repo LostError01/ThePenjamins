@@ -27,6 +27,11 @@ public class ShopManager : MonoBehaviour
     [SerializeField] private Text moneyText;
     private int playerMoney = 0;
 
+    public static bool alcoholFlag = false, hongosFlag = false, lsdFlag = false;
+
+    public static bool cigarrosFlag = false, marihuanaFlag = false, cocainaFlag = false, 
+                       jeringaFlag = false, ketaminaFlag = false, pastillasFlag = false;
+
     void Start()
     {
         playerMoney = RPG_Player.puntos;
@@ -106,6 +111,64 @@ public class ShopManager : MonoBehaviour
                         playerMoney -= 5; // Descontar dinero al comprar
                         RPG_Player.puntos = playerMoney;
                         ShopData.boughtItems[i] = true; // Marcar como comprado
+                        //Debug.Log("Objeto comprado: " + draggables[i].item.name);
+
+                        //Drogas que necesitas para activar los niveles especiales
+
+                        if (draggables[i].item.name == ("Alcohol_0"))
+                        {
+                            Debug.Log("Alcohol comprado");
+                            alcoholFlag = true;
+                        }
+
+                        if (draggables[i].item.name == ("Hongos_0"))
+                        {
+                            Debug.Log("Hongos comprados");
+                            hongosFlag = true;
+                        }
+
+                        if (draggables[i].item.name == ("Lsd__0"))
+                        {
+                            Debug.Log("LSD comprado");
+                            lsdFlag = true;
+                        }
+
+                        if (draggables[i].item.name == ("Cigarros_0"))
+                        {
+                            Debug.Log("Cigarros comprados");
+                            cigarrosFlag = true;
+                        }
+
+                        if (draggables[i].item.name == ("Marijuana_0"))
+                        {
+                            Debug.Log("Mota comprada");
+                            marihuanaFlag = true;
+                        }
+
+                        if (draggables[i].item.name == ("Coca__0"))
+                        {
+                            Debug.Log("Cocaina comprada");
+                            cocainaFlag = true;
+                        }
+
+                        if (draggables[i].item.name == ("Jeringas_0"))
+                        {
+                            Debug.Log("Jeringa comprada");
+                            jeringaFlag = true;
+                        }
+
+                        if (draggables[i].item.name == ("Ketamina_0"))
+                        {
+                            Debug.Log("Ketamina comprada");
+                            ketaminaFlag = true;
+                        }
+
+                        if (draggables[i].item.name == ("Pastillas_0"))
+                        {
+                            Debug.Log("Pastillas compradas");
+                            pastillasFlag = true;
+                        }
+
                     }
 
                     if (!placedCorrectly)

@@ -34,20 +34,28 @@ public class Plataformer_Player : MonoBehaviour
     [Header("Animator del Player")]
     [SerializeField] private Animator playerAnimator; // Referencia al Animator del jugador
 
+    [Header("Barra de Vida")]
+    [SerializeField] private Slider barraVida; // Referencia a la barra de vida del jugador
+
     private bool salto = false;
     private int checkpointIndex = 1; // Índice del checkpoint actual, se puede usar para lógica adicional si es necesario
     private bool dialogoFlag = false;
 
     private int puntaje;
 
+    private int vidas = 3; // Número de vidas del jugador, se puede usar para lógica adicional si es necesario
+
     private void Start()
     {
         // ---------- Obtener componentes ----------
         PlayerRb = GetComponent<Rigidbody2D>();
+        barraVida.value = vidas; // Inicializar la barra de vida con el número de vidas del jugador
     }
 
     private void Update()
     {
+        barraVida.value = vidas; // Inicializar la barra de vida con el número de vidas del jugador
+
         movimientoHorizontal = Input.GetAxis("Horizontal") * velocidadMovimiento;
 
         if(Input.GetButtonDown("Jump"))
@@ -62,13 +70,23 @@ public class Plataformer_Player : MonoBehaviour
             {
                 if (SceneManager.GetActiveScene().name == "MG01_NORMAL")
                 {
-                    puntaje = UnityEngine.Random.Range(1, 5); // Generar un puntaje aleatorio entre 1 y 10
+                    puntaje = UnityEngine.Random.Range(2, 5); // Generar un puntaje aleatorio entre 1 y 10
+                    RPG_Player.puntos += puntaje; // Incrementar puntos al completar el diálogo
+                }
+                if(SceneManager.GetActiveScene().name == "MG01")
+                {
+                    puntaje = UnityEngine.Random.Range(2, 9); // Generar un puntaje aleatorio entre 1 y 10
                     RPG_Player.puntos += puntaje; // Incrementar puntos al completar el diálogo
                 }
                 SceneManager.LoadScene("RPG"); // Cargar la escena del menú principal al presionar Enter
             }
         }
 
+        if (vidas <= 0)
+        {
+            //Reinciar la escena actual si las vidas llegan a 0
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reiniciar la escena actual
+        }
     }
 
     private void FixedUpdate()
@@ -130,18 +148,21 @@ public class Plataformer_Player : MonoBehaviour
             salto = false; // Evita que el jugador salte al tocar el daño
             //Teletransportar al jugador a un checkpoint
             transform.position = checkpoint[0].position; // Teletransportar al jugador a la posición del checkpoint
+            vidas--;
         }
         if (collision.CompareTag("Damage") && checkpointIndex == 2)
         {
             salto = false; // Evita que el jugador salte al tocar el daño
             //Teletransportar al jugador a un checkpoint
             transform.position = checkpoint[1].position; // Teletransportar al jugador a la posición del checkpoint
+            vidas--;
         }
         if (collision.CompareTag("Damage") && checkpointIndex == 3)
         {
             salto = false; // Evita que el jugador salte al tocar el daño
             //Teletransportar al jugador a un checkpoint
             transform.position = checkpoint[2].position; // Teletransportar al jugador a la posición del checkpoint
+            vidas--;
         }
 
         // Checkpoint logic

@@ -46,8 +46,11 @@ public class RPG_Player : MonoBehaviour
     [SerializeField] private SpriteRenderer BmorenoImg;
     [SerializeField] private Text Merkatext;
 
+    [Header("Minijuego Numero 3")]
+    [SerializeField] private GameObject MG03Object;
+
     // ----- P U N T O S -----
-    public static int puntos;
+    public static int puntos = 50;
 
     //Flags de minijuegos
     private bool MG01 = false, MG02 = false, MG03 = false;
@@ -60,6 +63,7 @@ public class RPG_Player : MonoBehaviour
 
         PlayerRb = GetComponent<Rigidbody2D>();
         PlayerAnim = GetComponent<Animator>();
+        MG03Object.SetActive(false);
     }
 
     private void Update()
@@ -98,7 +102,15 @@ public class RPG_Player : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.KeypadEnter))
             {
-                SceneManager.LoadScene("MG01_NORMAL");
+                if (!ShopManager.lsdFlag || !ShopManager.hongosFlag)
+                {
+                    SceneManager.LoadScene("MG01_NORMAL");
+                }
+
+                if(ShopManager.lsdFlag || ShopManager.hongosFlag)
+                {
+                    SceneManager.LoadScene("MG01");
+                }
             }
         }
 
@@ -106,7 +118,15 @@ public class RPG_Player : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.KeypadEnter))
             {
-                SceneManager.LoadScene("MG02");
+                if (!ShopManager.alcoholFlag)
+                {
+                    SceneManager.LoadScene("MG02");
+                }
+
+                if(ShopManager.alcoholFlag)
+                {
+                    SceneManager.LoadScene("MG02_Distorted");
+                }
             }
         }
 
@@ -114,7 +134,12 @@ public class RPG_Player : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.KeypadEnter))
             {
-                SceneManager.LoadScene("MG03");
+                if (ShopManager.hongosFlag && ShopManager.jeringaFlag && ShopManager.cocainaFlag &&
+                    ShopManager.alcoholFlag && ShopManager.marihuanaFlag && ShopManager.cigarrosFlag
+                    && ShopManager.ketaminaFlag && ShopManager.jeringaFlag && ShopManager.pastillasFlag)
+                {
+                    SceneManager.LoadScene("MG03");
+                }
             }
         }
 
@@ -124,6 +149,15 @@ public class RPG_Player : MonoBehaviour
             {
                 SceneManager.LoadScene("SHOP_DEALER");
             }
+        }
+
+        // Activar el minijuego 3 si se cumplen las condiciones
+
+        if (ShopManager.hongosFlag && ShopManager.jeringaFlag && ShopManager.cocainaFlag &&
+                    ShopManager.alcoholFlag && ShopManager.marihuanaFlag && ShopManager.cigarrosFlag
+                    && ShopManager.ketaminaFlag && ShopManager.jeringaFlag && ShopManager.pastillasFlag)
+        {
+            MG03Object.SetActive(true);
         }
     }
 
