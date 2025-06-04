@@ -95,7 +95,7 @@ public class Runner_Player : MonoBehaviour
         if (collision.CompareTag("Kid"))
         {
             //Aumentar el delta time
-            Time.timeScale += 0.05f; // Aumenta la velocidad del juego al recoger un niño
+            Time.timeScale += 0.02f; // Aumenta la velocidad del juego al recoger un niño
             sonidoNiño.PlayOneShot(matarNiño); // Reproducir sonido al recoger un niño
         }
     }

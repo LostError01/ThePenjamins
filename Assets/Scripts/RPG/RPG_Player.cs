@@ -76,6 +76,7 @@ public class RPG_Player : MonoBehaviour
         PlayerRb = GetComponent<Rigidbody2D>();
         PlayerAnim = GetComponent<Animator>();
         MG03Object.SetActive(false);
+        Time.timeScale = 1f; // Asegurarse de que el tiempo del juego esté normalizado al inicio
     }
 
     private void Update()

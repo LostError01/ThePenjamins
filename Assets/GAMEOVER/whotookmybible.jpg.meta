@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      whotookmybible_0: 1955227925413386338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -47,14 +47,10 @@ public class CombatManager : MonoBehaviour
         playerHealthBar.value = playerHealth;
         enemyHealthBar.value = enemyHealth;
 
-        if (playerHealth <= 0 || enemyHealth <= 0)
+        if (playerHealth <= 0)
         {
-            CheckVictory();
-        }
-
-        if(playerHealth <=0)
-        {
-            SceneManager.LoadScene("GameOver"); // Cargar escena de Game Over si el jugador pierde
+            
+            SceneManager.LoadScene("GameOver"); // Cargar escena de Game Over
         }
     }
 
@@ -132,7 +128,7 @@ public class CombatManager : MonoBehaviour
         enemyHealth = Mathf.Max(enemyHealth, 0);
 
         Debug.Log($"Jugador ataca al enemigo con {damage} de daño. El enemigo recibe {effectiveDamage} puntos de daño.");
-        CheckVictory();
+       
 
         // Completar los 1 segundos totales si la animación fue más corta
         float remainingTime = 1.0f - animationDuration;
@@ -173,7 +169,6 @@ public class CombatManager : MonoBehaviour
         playerHealth = Mathf.Max(playerHealth, 0);
 
         Debug.Log($"Enemigo ataca al jugador con {damage} de daño. El jugador recibe {effectiveDamage} puntos de daño.");
-        CheckVictory();
 
         float remainingTime = 1.0f - animationDuration;
         if (remainingTime > 0) yield return new WaitForSeconds(remainingTime);
@@ -191,20 +186,5 @@ public class CombatManager : MonoBehaviour
 
         float remainingTime = 1.0f - animationDuration;
         if (remainingTime > 0) yield return new WaitForSeconds(remainingTime);
-    }
-
-    // --- Verificar victoria ---
-    void CheckVictory()
-    {
-        if (playerHealth <= 0)
-        {
-            Debug.Log("El enemigo ha ganado!");
-            Time.timeScale = 0; // Detiene el juego
-        }
-        else if (enemyHealth <= 0)
-        {
-            Debug.Log("El jugador ha ganado!");
-            Time.timeScale = 0; // Detiene el juego
-        }
     }
 }
