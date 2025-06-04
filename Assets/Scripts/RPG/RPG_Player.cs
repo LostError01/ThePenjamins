@@ -48,6 +48,7 @@ public class RPG_Player : MonoBehaviour
 
     //Flags de minijuegos
     private bool MG01 = false, MG02 = false, MG03 = false;
+    private bool bmorenoFlag = false;
 
 
     void Start()
@@ -113,6 +114,14 @@ public class RPG_Player : MonoBehaviour
                 SceneManager.LoadScene("MG03");
             }
         }
+
+        if(bmorenoFlag)
+        {
+            if(Input.GetKey(KeyCode.E))
+            {
+                SceneManager.LoadScene("SHOP_DEALER");
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -173,6 +182,7 @@ public class RPG_Player : MonoBehaviour
             BmorenoImg.enabled = true;
             BmorenoText.enabled = true;
             Merkatext.enabled = true;
+            bmorenoFlag = true;
         }
     }
 
@@ -234,6 +244,7 @@ public class RPG_Player : MonoBehaviour
             BmorenoImg.enabled = false;
             BmorenoText.enabled = false;
             Merkatext.enabled = false;
+            bmorenoFlag = false;
         }
     }
 }
