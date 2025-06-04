@@ -12,6 +12,7 @@ public class Runner_EnemySpawn : MonoBehaviour
     [SerializeField] private float maxTime;
     [SerializeField] private float AlturaEnemigo01;
     [SerializeField] private float AlturaEnemigo02;
+    [SerializeField] private float AlturaEnemigo03;
 
     [Header("Velocidad Enemigo")]
     [SerializeField] private float velocidadEnemigo;

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI; // Asegúrate de tener esta línea para usar UI Text
 
 public class Runner_Player : MonoBehaviour
 {
@@ -16,11 +17,18 @@ public class Runner_Player : MonoBehaviour
     [Header("Escena Actual")]
     [SerializeField] private string escenaActual;
 
+    [Header("Barra de Progreso")]
+    [SerializeField] private Slider barraProgreso; // Barra de progreso para el minijuego
+
+    [Header("Velocidad de Progreso en Barra")]
+    [SerializeField] private float velocidadProgreso; // Velocidad de incremento de la barra de progreso
+
     private void Start()
     {
         // ---------- Obtener componentes ----------
         PlayerRb = GetComponent<Rigidbody2D>();
         PlayerAnim = GetComponent<Animator>();
+        Time.timeScale = 1f; // Asegurarse de que el tiempo del juego esté normalizado al inicio
     }
 
     private void Update()
@@ -42,6 +50,18 @@ public class Runner_Player : MonoBehaviour
         {
             PlayerAnim.SetBool("Running", true);
         }
+
+        // Cada 5 segundos aumentar la barra de progreso 1 unidad
+        if (barraProgreso.value < barraProgreso.maxValue)
+        {
+            barraProgreso.value += Time.deltaTime * velocidadProgreso; // Ajusta la velocidad de incremento según sea necesario
+        }
+
+        //Si llega a la maxima barra de progreso, cargar la escena RPG
+        if (barraProgreso.value >= barraProgreso.maxValue)
+        {
+            SceneManager.LoadScene("RPG"); // Cargar la escena RPG
+        }
     }
 
     private void OnDrawGizmos()
@@ -55,6 +75,12 @@ public class Runner_Player : MonoBehaviour
         if (collision.CompareTag("R_Enemy"))
         {
             SceneManager.LoadScene(escenaActual);
+        }
+        if (collision.CompareTag("Kid"))
+        {
+            //Aumentar el delta time
+            Time.timeScale += 0.05f; // Aumenta la velocidad del juego al recoger un niño
+            Debug.Log("Niño recogido, velocidad del juego aumentada a: " + Time.timeScale);
         }
     }
 }

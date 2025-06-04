@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseBtns : MonoBehaviour
 {
@@ -24,7 +25,16 @@ public class PauseBtns : MonoBehaviour
     public void QuitGame()
     {
         Time.timeScale = 1f; // Asegurarse de que el tiempo esté normalizado al salir
-        UnityEngine.SceneManagement.SceneManager.LoadScene("mainMenu"); // Cargar la escena del menú principal
+        //Si la escena se llama MG02, se lleva a la escena RPG
+        if (SceneManager.GetActiveScene().name != "RPG")
+        {
+            SceneManager.LoadScene("RPG"); // Cargar la escena RPG
+            return;
+        }
+        else
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("mainMenu"); // Cargar la escena del menú principal
+        }
     }
 
     public void RestartGame()
