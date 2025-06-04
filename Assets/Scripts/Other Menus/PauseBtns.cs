@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PauseBtns : MonoBehaviour
 {
+    [SerializeField] GameObject BotonDePausa;
     private void Start()
     {
         gameObject.SetActive(false); // Asegurarse de que el menú de pausa esté desactivado al inicio
@@ -10,12 +11,14 @@ public class PauseBtns : MonoBehaviour
     {
         Time.timeScale = 1f; // Reanudar el juego
         gameObject.SetActive(false); // Desactivar el menú de pausa
+        BotonDePausa.SetActive(true); // Activar el botón de pausa
     }
 
     public void PauseGame()
     {
         Time.timeScale = 0f; // Pausar el juego
         gameObject.SetActive(true); // Activar el menú de pausa
+        BotonDePausa.SetActive(false); // Desactivar el botón de pausa
     }
 
     public void QuitGame()
